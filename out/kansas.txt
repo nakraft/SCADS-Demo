@@ -1,0 +1,105 @@
+Beginning Multi-Document Summarization:
+-------------------
+
+Summarizing 5 documents under scheme fisher
+Background bigrams generated.
+Summary generated in 346604 ns
+
+ -----summary------ 
+
+Obviously we were two (players) down,” Self said.                                                    ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+Visit The Kansas City Star (Kansas City, Mo.)                                                        ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+He’s in great shape,” Lightfoot said.                                                                ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+Kansas senior forward Mitch Lightfoot will redshirt the 2019-20 basketball season, coach Bill Self said Saturday. ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+KU beat Fort Hays State by 30 points and Pittsburg State by 60.                                      ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+The Border Showdown is back on between the KU and MU basketball teams.                               ( Mizzou, Kansas to renew basketball Border War starting Dec. 12, 2020 )
+“We’re not done (recruiting),” Self noted.                                                           ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+He told Tipton Edits on Tuesday he will attend either KU, Arkansas, Memphis or Michigan.             ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Moss scored three points on 1-of-4 three-point shooting against Pitt State.                          ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+Similar by 20 ( 10 %) out of 192
+Each document supported the summary with the following number of entities: [11, 2, 4, 7, 18]
+This is an average of 8.4
+-------------------
+
+Summarizing 5 documents under scheme position
+Summary generated in 315095 ns
+
+ -----summary------ 
+
+Visit The Kansas City Star (Kansas City, Mo.)                                                        ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+at www.kansascity.com Distributed by Tribune Content Agency, LLC.                                    ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+There is still a chance Jalen Wilson will be able to contribute to Kansas’ basketball team during games his freshman season. ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+The biggest basketball rivalry for the University of Missouri is back on.                            ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Kansas senior forward Mitch Lightfoot will redshirt the 2019-20 basketball season, coach Bill Self said Saturday. ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+Kansas basketball center Udoka Azubuike was chosen Big 12 preseason player of the year Wednesday in a vote of the league’s head coaches. ( KU, MU agree to Border Showdown basketball series )
+They want to go to the Final Four.                                                                   ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+Similar by 12 ( 6 %) out of 192
+Each document supported the summary with the following number of entities: [6, 3, 3, 8, 8]
+This is an average of 5.6
+-------------------
+
+Summarizing 5 documents under scheme terms
+Summary generated in 255783 ns
+
+ -----summary------ 
+
+“Hopefully in the next week or so he can be a guy close to 100 percent when we get to Maui because he is a guy we need him to stretch it.” “If we are tough enough, we can play Christian (Braun), Marcus (Garrett), Tristan (Enaruna) … can play them and play four guards as long as one is tough enough to defend the 4 and rebound the ball. ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Visit The Kansas City Star (Kansas City, Mo.)                                                        ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+He’s in great shape,” Lightfoot said.                                                                ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+Lightfoot will travel with the team to road games this season, Self said.                            ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+Similar by 10 ( 5 %) out of 192
+Each document supported the summary with the following number of entities: [10, 1, 1, 4, 7]
+This is an average of 4.6
+-------------------
+
+Summarizing 5 documents under scheme sentances
+Summary generated in 231036 ns
+
+ -----summary------ 
+
+More sports coverage: RELATED: Stanley Cup champion Blues to face NHL's best team RELATED: Mizzou drops out of AP poll after loss to Vanderbilt RELATED: Canadiens use big 2nd period to beat slumping Blues 5-2 ( Mizzou, Kansas to renew basketball Border War starting Dec. 12, 2020 )
+He jogged down the floor then sidestep jogged to the side with no contact and broke his ankle there,” Self said. ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+“Obviously he had something going on with it (ankle prior to Friday) that wasn’t symptomatic from a soreness standpoint. ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Starting in the 2020-21 season, the Missouri Tigers and Kansas Jayhawks will renew their century-long rivalry that went away when Mizzou left for the SEC. ( Mizzou, Kansas to renew basketball Border War starting Dec. 12, 2020 )
+Similar by 10 ( 5 %) out of 192
+Each document supported the summary with the following number of entities: [1, 9, 0, 0, 1]
+This is an average of 2.2
+-------------------
+
+Summarizing 5 documents under scheme counts
+Summary generated in 361883 ns
+
+ -----summary------ 
+
+Visit The Kansas City Star (Kansas City, Mo.)                                                        ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Obviously we were two (players) down,” Self said.                                                    ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+at www.kansascity.com Distributed by Tribune Content Agency, LLC.                                    ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Missouri will be the home team in 2025-26.                                                           ( KU, MU agree to Border Showdown basketball series )
+Azubuike is ninth player in the Bill Self era to be chosen preseason player of the year in the league. ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+They want to go to the Final Four.                                                                   ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+If he doesn’t appear in a game this season, he will have a final year of eligibility for 2020-21.    ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+As a healthy sophomore, he averaged 13.0 points and 7.0 rebounds in 36 games.                        ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+It could be not winning.                                                                             ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Similar by 12 ( 6 %) out of 192
+Each document supported the summary with the following number of entities: [6, 1, 4, 11, 10]
+This is an average of 6.4
+-------------------
+
+Summarizing 5 documents under scheme entropy
+Summary generated in 375335 ns
+
+ -----summary------ 
+
+Visit The Kansas City Star (Kansas City, Mo.)                                                        ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Obviously we were two (players) down,” Self said.                                                    ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+Missouri will be the home team in 2025-26.                                                           ( KU, MU agree to Border Showdown basketball series )
+He was in the game 10 seconds.                                                                       ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+at www.kansascity.com Distributed by Tribune Content Agency, LLC.                                    ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+They want to go to the Final Four.                                                                   ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+KU’s last preseason player of the year was Devonte Graham in 2017-18.                                ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+As a healthy sophomore, he averaged 13.0 points and 7.0 rebounds in 36 games.                        ( KU's Udoka Azubuike is player of the year as Big 12 preseason awards are announced )
+If he doesn’t appear in a game this season, he will have a final year of eligibility for 2020-21.    ( KU forward Mitch Lightfoot will redshirt this season, Self says )
+It could be not winning.                                                                             ( Will injured Jalen Wilson redshirt? Self says KU won't make a decision right away )
+Similar by 13 ( 7 %) out of 192
+Each document supported the summary with the following number of entities: [5, 1, 4, 10, 8]
+This is an average of 5.6

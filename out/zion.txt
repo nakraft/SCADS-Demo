@@ -1,0 +1,126 @@
+Beginning Multi-Document Summarization:
+-------------------
+
+Summarizing 145 documents under scheme fisher
+Background bigrams generated.
+Summary generated in 16557829 ns
+
+ -----summary------ 
+
+Dan Feldman: Zion Williamson (New Orleans Pelicans).                                                 ( Rookie of the Year predictions: Can anyone beat out Zion Williamson? )
+THE NBA PLAYOFFS ON TNT!                                                                             ( NBA predictions 2019-20: Final standings, playoff projections, NBA Finals pick )
+The Pelicans lost some buzz.                                                                         ( Opinion: Five issues facing the New Orleans Pelicans without rookie Zion Williamson )
+Last season, the Cavs won 19.                                                                        ( Cleveland Cavaliers: Six bold predictions for the 2019-20 season -- Chris Fedor )
+Key departures: Lonzo Ball, Josh Hart, Brandon Ingram.                                               ( Jonathan Feigen's 2019-20 NBA power rankings: Clippers No. 1 )
+Key additions: Kawhi Leonard, Paul George.                                                           ( Jonathan Feigen's 2019-20 NBA power rankings: Clippers No. 1 )
+He’s averaging 32 points, 13 rebounds and five assists per game.                                     ( 6 overreactions to the first week of the NBA season )
+Pelicans: Lonzo Ball had 12 points and nine assists.                                                 ( Curry leads Warriors to first win, 134-123 over Pelicans )
+The Clippers will be the first Western Conference contender the Rockets will face this season.       ( 3-pointers: Takeaways from Rockets' win over Pelicans )
+Everything matters in college basketball.                                                            ( College basketball fixed opening night )
+98), G Damion Baugh Will Sit (1): PF Isaiah Stokes (Florida transfer, RS Soph., 2.7 ppg, 1.0 rpg) 11. ( Jeff Goodman's 2019-20 College Basketball Top 25 | Preseason )
+Similar by 14 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [0, 3, 0, 2, 1, 1, 2, 1, 1, 0, 6, 0, 3, 2, 2, 5, 8, 5, 3, 1, 0, 3, 3, 4, 2, 7, 4, 3, 3, 4, 10, 1, 7, 7, 1, 1, 4, 7, 3, 7, 6, 7, 6, 4, 2, 4, 8, 0, 6, 8, 2, 1, 0, 5, 10, 9, 7, 3, 4, 5, 2, 4, 9, 3, 5, 6, 7, 9, 5, 5, 3, 2, 11, 2, 10, 4, 6, 4, 0, 5, 2, 1, 3, 2, 0, 6, 3, 0, 15, 14, 4, 3, 5, 4, 6, 6, 4, 7, 12, 7, 0, 2, 2, 1, 5, 1, 2, 2, 8, 4, 4, 8, 5, 8, 8, 3, 1, 5, 5, 3, 7, 2, 5, 7, 1, 2, 6, 2, 4, 5, 13, 4, 1, 2, 7, 4, 3, 6, 10, 7, 4, 5, 2, 2, 2]
+This is an average of 4.275862068965517
+-------------------
+
+Summarizing 145 documents under scheme position
+Summary generated in 16567016 ns
+
+ -----summary------ 
+
+Who will be in the Final Four?                                                                       ( The top 10 questions for the 2019-2020 college basketball season )
+Related Slideshow: Best of the NBA season (provided by imagn)                                        ( Winners and losers from NBA's opening night )
+The Houston Rockets meet the New Orleans Pelicans for the second time this season.                   ( Houston faces New Orleans after Harden's 42-point showing )
+And that’s going to have to be enough.                                                               ( Expect the Suns to be a lot better this season, but so what? The West is impossible )
+He’s got to play the game.                                                                           ( 3-pointers: Takeaways from Rockets' win over Pelicans )
+"He's still on the team.                                                                             ( Lonzo Ball says Pelicans have to 'hold the fort down' until Zion Williamson returns )
+This is a team that nearly made the playoffs last season.                                            ( 6 overreactions to the first week of the NBA season )
+This would be the season to do it.                                                                   ( Luke DeCock: With talent drain at the top, it's a wide-open ACC basketball race (for a change) )
+Michigan State is the preseason No.                                                                  ( The top 10 questions for the 2019-2020 college basketball season )
+Shai Gilgeous-Alexander had 23 points and eight rebounds, and the Thunder beat the Pelicans 115-104. ( Pelicans drop to 1-5 after loss at OKC )
+It might take a lot of them.                                                                         ( There are no winners in NBA-China dustup )
+Similar by 9 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [2, 1, 2, 4, 2, 1, 2, 2, 1, 1, 4, 1, 4, 2, 2, 3, 4, 2, 4, 1, 0, 2, 2, 4, 1, 2, 6, 5, 1, 5, 3, 1, 7, 5, 1, 2, 2, 7, 3, 4, 3, 4, 5, 3, 3, 2, 2, 1, 3, 5, 2, 2, 1, 3, 2, 5, 8, 1, 2, 3, 3, 4, 5, 3, 4, 5, 3, 2, 6, 5, 3, 4, 4, 2, 6, 3, 1, 3, 1, 1, 2, 2, 2, 3, 1, 1, 6, 1, 6, 4, 2, 3, 3, 4, 5, 5, 3, 2, 7, 7, 1, 3, 3, 1, 4, 2, 2, 3, 5, 3, 3, 5, 4, 5, 6, 5, 0, 5, 4, 1, 3, 2, 3, 1, 2, 1, 5, 2, 6, 3, 6, 3, 1, 2, 3, 3, 5, 6, 6, 5, 6, 4, 3, 2, 2]
+This is an average of 3.1379310344827585
+-------------------
+
+Summarizing 145 documents under scheme terms
+Summary generated in 17032890 ns
+
+ -----summary------ 
+
+Who will be in the Final Four?                                                                       ( The top 10 questions for the 2019-2020 college basketball season )
+Related Slideshow: Best of the NBA season (provided by imagn)                                        ( Winners and losers from NBA's opening night )
+The matchup Saturday is the first meeting this season for the two teams.                             ( New Orleans takes on Charlotte, looks to halt 3-game skid )
+And that’s going to have to be enough.                                                               ( Expect the Suns to be a lot better this season, but so what? The West is impossible )
+He’s got to play the game.                                                                           ( 3-pointers: Takeaways from Rockets' win over Pelicans )
+New Orleans' Zion Williamson, the No.                                                                ( Miami's Tyler Herro among rookies making preseason noise )
+This would be the season to do it.                                                                   ( Luke DeCock: With talent drain at the top, it's a wide-open ACC basketball race (for a change) )
+"He's still on the team.                                                                             ( Lonzo Ball says Pelicans have to 'hold the fort down' until Zion Williamson returns )
+This is a team that nearly made the playoffs last season.                                            ( 6 overreactions to the first week of the NBA season )
+But it was more about the draft picks acquired as a result.                                          ( Cleveland Cavaliers: Six bold predictions for the 2019-20 season -- Chris Fedor )
+“I’m here to win games and I didn’t get a win.                                                       ( Holiday's 36 points push Pelicans past Clippers 132-127 )
+Similar by 6 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 4, 1, 3, 2, 3, 4, 4, 3, 4, 2, 0, 3, 2, 5, 2, 2, 6, 5, 2, 4, 2, 2, 6, 5, 3, 1, 3, 5, 4, 5, 4, 4, 5, 4, 3, 0, 2, 2, 4, 3, 2, 2, 1, 3, 2, 6, 3, 2, 2, 2, 4, 2, 5, 5, 3, 5, 4, 1, 5, 4, 1, 2, 3, 3, 5, 4, 1, 3, 2, 1, 0, 3, 3, 1, 1, 4, 3, 1, 5, 3, 3, 2, 4, 3, 6, 3, 2, 1, 5, 2, 2, 3, 2, 1, 5, 1, 2, 5, 6, 3, 6, 3, 5, 6, 5, 4, 3, 6, 5, 2, 3, 1, 3, 1, 2, 2, 4, 3, 5, 3, 5, 1, 1, 2, 3, 3, 5, 6, 5, 5, 5, 4, 4, 2, 4]
+This is an average of 3.0620689655172413
+-------------------
+
+Summarizing 145 documents under scheme sentances
+Summary generated in 12404486 ns
+
+ -----summary------ 
+
+Related slideshow: Best Photos of the NBA Preseason (Provided by imagn)                              ( Watch: Zion Williamson with 360 reverse jam )
+It joins the New Orleans Pelicans as the team with the most talented young core in the Western Conference. ( 10 bold predictions for the 2019-20 NBA season )
+This will be a team that nobody wants to play on the second night of a back-to-back.                 ( Expect the Suns to be a lot better this season, but so what? The West is impossible )
+But the Pelicans are young, play fast (third in pace last season) and have a ton of depth for the first time this decade. ( Seven NBA teams who could leap from lottery to playoffs )
+A severe injury has been ruled out for Zion Williamson’s right knee, but he is expected to miss period of weeks to start regular season, league sources tell ESPN. ( Zion Williamson injury update: Pelicans rookie (knee) to miss 'weeks' to start season, report says )
+Similar by 8 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [1, 2, 2, 3, 1, 2, 3, 2, 1, 1, 3, 3, 4, 3, 1, 2, 1, 2, 2, 3, 1, 1, 0, 2, 1, 2, 3, 1, 1, 1, 2, 0, 4, 2, 1, 1, 2, 3, 2, 5, 2, 5, 3, 1, 1, 1, 2, 2, 3, 2, 2, 2, 2, 3, 3, 2, 2, 1, 3, 3, 2, 1, 2, 2, 1, 3, 4, 1, 3, 2, 0, 1, 2, 1, 2, 1, 2, 2, 0, 2, 3, 4, 1, 2, 1, 1, 2, 1, 3, 2, 2, 0, 3, 3, 3, 3, 3, 1, 4, 2, 1, 3, 1, 0, 4, 1, 2, 3, 2, 1, 2, 3, 3, 3, 3, 2, 2, 3, 2, 1, 2, 1, 1, 3, 1, 2, 3, 1, 2, 1, 4, 2, 0, 0, 1, 0, 2, 5, 4, 3, 4, 3, 3, 2, 1]
+This is an average of 2.0206896551724136
+-------------------
+
+Summarizing 145 documents under scheme counts
+Summary generated in 17500208 ns
+
+ -----summary------ 
+
+Russell had one of the worst plus-minuses in the NBA.                                                ( Warriors mailbag: Can they draft James Wiseman? Draymond Green's struggles? )
+"He's still on the team.                                                                             ( Lonzo Ball says Pelicans have to 'hold the fort down' until Zion Williamson returns )
+New Orleans needs to be cautious.                                                                    ( Opinion: Zion Williamson's knee injury deflates Pelicans, NBA season before it begins )
+What beautiful start to the season!                                                                  ( Preview: Suns look to get back to their winning ways versus Warriors )
+J.J. Redick had a rough night for the Pelicans.                                                      ( Curry leads Warriors to first win, 134-123 over Pelicans )
+This is a team that nearly made the playoffs last season.                                            ( 6 overreactions to the first week of the NBA season )
+Kentucky will be the No.                                                                             ( Five things we learned from the start of the college basketball season )
+Which player is the fastest with the ball?                                                           ( How did the Rockets do in the '19-'20 GM Survey? )
+But it’s almost assuredly going to return this season.                                               ( NBA conference imbalance could haunt the West this season )
+He’s got to play the game.                                                                           ( 3-pointers: Takeaways from Rockets' win over Pelicans )
+Okafor is averaging 9.9 points per game on a career-high 64.8% shooting from the field.              ( Ingram, Okafor to sit vs. Clippers )
+Dan Feldman: Zion Williamson (New Orleans Pelicans).                                                 ( Rookie of the Year predictions: Can anyone beat out Zion Williamson? )
+Similar by 8 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [2, 1, 1, 2, 3, 3, 1, 3, 1, 2, 5, 3, 3, 3, 2, 3, 1, 3, 4, 2, 0, 3, 2, 3, 0, 3, 3, 3, 1, 4, 3, 1, 4, 3, 1, 2, 1, 4, 2, 5, 2, 5, 6, 3, 4, 1, 3, 2, 5, 2, 2, 1, 2, 2, 2, 4, 3, 2, 3, 4, 2, 1, 3, 3, 3, 4, 4, 2, 4, 3, 2, 3, 1, 1, 2, 2, 2, 2, 1, 2, 1, 2, 1, 2, 1, 1, 2, 1, 4, 3, 4, 2, 4, 2, 5, 3, 2, 1, 4, 2, 4, 3, 3, 1, 4, 1, 0, 2, 4, 2, 4, 4, 3, 3, 3, 4, 1, 2, 3, 2, 1, 1, 2, 3, 3, 1, 4, 1, 3, 3, 4, 2, 1, 2, 2, 3, 3, 4, 5, 4, 5, 5, 2, 3, 2]
+This is an average of 2.5517241379310347
+-------------------
+
+Summarizing 145 documents under scheme entropy
+Summary generated in 19805439 ns
+
+ -----summary------ 
+
+1 in the 2011 NBA draft.                                                                             ( Warriors mailbag: Can they draft James Wiseman? Draymond Green's struggles? )
+The first part of the question is interesting.                                                       ( Does Darius Garland have chance to win Rookie of the Year? Hey, Chris! )
+"He's still on the team.                                                                             ( Lonzo Ball says Pelicans have to 'hold the fort down' until Zion Williamson returns )
+New Orleans needs to be cautious.                                                                    ( Opinion: Zion Williamson's knee injury deflates Pelicans, NBA season before it begins )
+What beautiful start to the season!                                                                  ( Preview: Suns look to get back to their winning ways versus Warriors )
+J.J. Redick had a rough night for the Pelicans.                                                      ( Curry leads Warriors to first win, 134-123 over Pelicans )
+Take last season, for example.                                                                       ( Analyzing the highest-paid player on each NBA team in 2019-20 )
+Kentucky will be the No.                                                                             ( Five things we learned from the start of the college basketball season )
+Which player is the fastest with the ball?                                                           ( How did the Rockets do in the '19-'20 GM Survey? )
+But it’s almost assuredly going to return this season.                                               ( NBA conference imbalance could haunt the West this season )
+He’s got to play the game.                                                                           ( 3-pointers: Takeaways from Rockets' win over Pelicans )
+But the West is a crucible.                                                                          ( Expect the Suns to be a lot better this season, but so what? The West is impossible )
+One of them: they don’t have a lot of high-end talent.                                               ( Does Darius Garland have chance to win Rookie of the Year? Hey, Chris! )
+Dan Feldman: Zion Williamson (New Orleans Pelicans).                                                 ( Rookie of the Year predictions: Can anyone beat out Zion Williamson? )
+Similar by 10 ( 0 %) out of 4573
+Each document supported the summary with the following number of entities: [2, 2, 1, 3, 4, 4, 2, 4, 3, 2, 7, 4, 4, 5, 4, 4, 3, 5, 4, 4, 1, 3, 3, 6, 2, 4, 4, 5, 2, 4, 4, 1, 6, 4, 3, 3, 3, 6, 4, 7, 4, 7, 7, 4, 5, 2, 3, 3, 6, 3, 4, 2, 3, 3, 4, 5, 5, 2, 5, 6, 3, 5, 8, 4, 3, 6, 7, 4, 6, 5, 2, 4, 3, 3, 4, 4, 4, 3, 2, 3, 1, 3, 2, 2, 2, 2, 3, 1, 7, 5, 3, 2, 6, 4, 7, 3, 3, 3, 6, 4, 4, 4, 4, 1, 6, 3, 2, 3, 5, 5, 6, 5, 4, 5, 6, 6, 4, 4, 5, 3, 3, 1, 3, 5, 4, 1, 6, 2, 5, 5, 5, 2, 2, 2, 2, 4, 5, 6, 7, 7, 6, 6, 3, 4, 4]
+This is an average of 3.9034482758620688

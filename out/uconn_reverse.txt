@@ -1,0 +1,97 @@
+Beginning Multi-Document Summarization:
+-------------------
+
+Summarizing 3 documents under scheme fisher
+Background bigrams generated.
+Summary generated in 232642 ns
+
+ -----summary------ 
+
+Rene Montgomery’s personality is way different than Moriah Jefferson’s.                              ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+She’s not Jen Rizzotti passing to Rebecca Lobo and Kara Wolters.                                     ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+“And [the point guard] could score.                                                                  ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Absolutely.” ——— ©2019 The Hartford Courant (Hartford, Conn.) Visit The Hartford Courant (Hartford, Conn.) at www.courant.com Distributed by Tribune Content Agency, LLC. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Nazarene coach Chad Hibdon is Crystal Dangerfield’s high school coach.                               ( Live updates: UConn women take on Trevecca Nazarene in XL Center exhibition )
+Where are the Huskies going?                                                                         ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Crystal is going to have to do that every game.                                                      ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+How many of those did you have as a sophomore?                                                       ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Molly Bent was first off the bench, followed by Griffin and Irwin.                                   ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+“The answer was not enough.                                                                          ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Similar by 14 ( 13 %) out of 108
+Each document supported the summary with the following number of entities: [7, 7, 10]
+This is an average of 8.0
+-------------------
+
+Summarizing 3 documents under scheme position
+Summary generated in 683938 ns
+
+ -----summary------ 
+
+The UConn women’s basketball team wraps up its slate of exhibition games with a matchup against Trevecca Nazarene Wednesday night at XL Center. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+Crystal is going to have to do that every game.                                                      ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+——— ©2019 The Hartford Courant (Hartford, Conn.) Visit The Hartford Courant (Hartford, Conn.) at www.courant.com Distributed by Tribune Content Agency, LLC. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+UConn women’s basketball fans got their first look at the 2019-20 Huskies, including three of the program’s newcomers, in a 103-40 exhibition win over Division II Jefferson Sunday afternoon at Gampel Pavilion. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+Junior Megan Walker, named all-conference first team, is capable of a breakout season.               ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Similar by 16 ( 15 %) out of 108
+Each document supported the summary with the following number of entities: [15, 9, 11]
+This is an average of 11.666666666666666
+-------------------
+
+Summarizing 3 documents under scheme terms
+Summary generated in 143522 ns
+
+ -----summary------ 
+
+So she is in a tough spot where a lot is going to be demanded of her.” Dangerfield underwent surgery to correct a hip impingement on her left side May 30 and is just about fully recovered, with only a little additional fatigue during the first week of practice. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+While freshmen Aubrey Griffin and Anna Makurat, who assumed the fifth starting spot behind the team’s three returning starters and Olivia Nelson-Ododa, were solid in their first games in a Husky uniform, it was junior Megan Walker who shined brightest, scoring a game-high 28 points, including 19 in the first half. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+Similar by 8 ( 7 %) out of 108
+Each document supported the summary with the following number of entities: [11, 0, 5]
+This is an average of 5.333333333333333
+-------------------
+
+Summarizing 3 documents under scheme sentances
+Summary generated in 555232 ns
+
+ -----summary------ 
+
+Given Auriemma’s and her teammates’ high praise of Makurat after only a few months in Storrs, it wasn’t entirely surprising that a player with two years of experience in Poland’s top basketball would get a nod as a starter. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+“It’s just taking a little bit more time, and I’m just trying to get back into the groove,” she said Monday, when she was honored with co-player of the year Kay Kay Wright of Central Florida. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+The UConn women’s basketball team wraps up its slate of exhibition games with a matchup against Trevecca Nazarene Wednesday night at XL Center. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+Similar by 14 ( 13 %) out of 108
+Each document supported the summary with the following number of entities: [7, 4, 6]
+This is an average of 5.666666666666667
+-------------------
+
+Summarizing 3 documents under scheme counts
+Summary generated in 762018 ns
+
+ -----summary------ 
+
+Crystal is going to have to do that every game.                                                      ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+——— ©2019 The Hartford Courant (Hartford, Conn.) Visit The Hartford Courant (Hartford, Conn.) at www.courant.com Distributed by Tribune Content Agency, LLC. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+How many of those did you have as a sophomore?                                                       ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+“And [the point guard] could score.                                                                  ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Sophomore Christyn Williams is one of the most talented players in the sport and that she ended up on the preseason second team, and not the first, is a joke. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Where are the Huskies going?                                                                         ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+“In order to be great at that position, you have to have a certain personality type,” Auriemma said. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Similar by 6 ( 6 %) out of 108
+Each document supported the summary with the following number of entities: [7, 4, 9]
+This is an average of 6.666666666666667
+-------------------
+
+Summarizing 3 documents under scheme entropy
+Summary generated in 217563 ns
+
+ -----summary------ 
+
+Crystal is going to have to do that every game.                                                      ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+“And [the point guard] could score.                                                                  ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+But there is plenty to make of 2019-20 The Crystal Dangerfield Season.                               ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+How many of those did you have as a sophomore?                                                       ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+——— ©2019 The Hartford Courant (Hartford, Conn.) Visit The Hartford Courant (Hartford, Conn.) at www.courant.com Distributed by Tribune Content Agency, LLC. ( Freshman Anna Makurat starts, Megan Walker shines as UConn women throttle Division II Jefferson 103-40 in exhibition )
+She’s not Renee Montgomery passing to Maya Moore.                                                    ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Where are the Huskies going?                                                                         ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+This is her team, one constructed in a way that poses challenges other top point guards in the program’s history have not necessarily faced. ( Mike Anthony: The UConn women will be good if Crystal Dangerfield can be great )
+Similar by 8 ( 7 %) out of 108
+Each document supported the summary with the following number of entities: [5, 4, 8]
+This is an average of 5.666666666666667
