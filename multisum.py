@@ -21,7 +21,7 @@ Occams Repo: https://github.ncsu.edu/SCADS/Occams/blob/master/occams/occamslib.p
 """
 
 def load_data(file_path): 
-    """read in a pickle file for use in summarization"""
+    """read in a pickle file for use in summarization. these were pre-computed bigrams of documents to improve runtime"""
     return pd.read_pickle(file_path)
 
 def aggregate_bg(bigrams): 
@@ -35,6 +35,7 @@ def determine_scheme(scheme):
     """determine the correct scheme to utilize in summarization"""
     # scheme options can be found here: 
     # https://github.ncsu.edu/SCADS/Occams/blob/master/occams/summarize/term_weight_schemes.py
+    # or within the repo's OCCAMS_user_guide.md
     schemes = {
         'position' : TermFrequencyScheme.POSITIONAL_DENSE, 
         'terms' : TermFrequencyScheme.CORE_TERMS,
@@ -178,9 +179,9 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
     chosen_scheme = determine_scheme(scheme)
     document_titles = df['Title']
 
-    if not experiment: 
-        print("-------------------")
-        print("\nSummarizing", doc_incidences.num_documents(), "documents under scheme", scheme)
+    # if not experiment: 
+    #     print("-------------------")
+    #     print("\nSummarizing", doc_incidences.num_documents(), "documents under scheme", scheme)
 
     start_time = None
     if chosen_scheme == 'fisher': 
@@ -200,7 +201,8 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
         start_time = time.time()
         extractor = TermFrequencySummaryExtractor.from_documents(documents, units=SummaryUnits.WORDS, scheme=chosen_scheme)
     
-    extractor.reduce_incidence_structure(max_sentences = round(extractor._m.num_sentences() * .9), min_length = .3) # removeing too short sentances and duplicate statements
+    max_s = round(extractor._m.num_sentences() * .9)
+    extractor.reduce_incidence_structure(max_sentences = max(max_s, 1), min_length = .3) # removeing too short sentances and duplicate statements
     build_time = time.time() - start_time
 
     start_time = time.time()
@@ -211,8 +213,8 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
 
     sentences = extract.sentences(document_order=alg_priority)
     sentence_i = extract.indices(sort=alg_priority)        # extractor._m.get_sentence(55)) can be used to identify the sentance in the listing
-    if not experiment: 
-        print("Summary time:", time.time() - start_time)
+    # if not experiment: 
+    #     print("Summary time:", time.time() - start_time)
     doc_sep = []
     for ele, value in enumerate(extract._m.document_spans()):
         doc_sep.append(value[1])
@@ -227,7 +229,7 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
         print("".join([sentences[i].text.ljust(max(125, int(length)), " ") +
          "(" + doc_titles[i] + ", " + str(round(sentence_weights[i], 2)) +
           ")\n" for i in range(0, len(sentences))] ))
-        # coverage_heuristic(sentences, extractor, False) # If interested in scores... uncomment!
+        coverage_heuristic(sentences, extractor, False) # If interested in scores... uncomment!
 
     return build_time, extract.time(), sentences, doc_titles, extractor, sentence_weights
 
