@@ -179,9 +179,9 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
     chosen_scheme = determine_scheme(scheme)
     document_titles = df['Title']
 
-    # if not experiment: 
-    #     print("-------------------")
-    #     print("\nSummarizing", doc_incidences.num_documents(), "documents under scheme", scheme)
+    if not experiment: 
+        print("-------------------")
+        print("\nSummarizing", doc_incidences.num_documents(), "documents under scheme", scheme)
 
     start_time = None
     if chosen_scheme == 'fisher': 
@@ -205,16 +205,13 @@ def summarize_collect(df, documents, doc_incidences, scheme, length, experiment)
     extractor.reduce_incidence_structure(max_sentences = max(max_s, 1), min_length = .3) # removeing too short sentances and duplicate statements
     build_time = time.time() - start_time
 
-    start_time = time.time()
     extract = extractor.extract(budget=int(length))
-
     # set to False if you want to use the order the algorithm chooses, True will keep it in sorted document order 
     alg_priority = True
 
     sentences = extract.sentences(document_order=alg_priority)
     sentence_i = extract.indices(sort=alg_priority)        # extractor._m.get_sentence(55)) can be used to identify the sentance in the listing
-    # if not experiment: 
-    #     print("Summary time:", time.time() - start_time)
+    
     doc_sep = []
     for ele, value in enumerate(extract._m.document_spans()):
         doc_sep.append(value[1])

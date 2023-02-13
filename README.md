@@ -54,6 +54,13 @@ The scalability of our summarization model must also be considered. We evaluated
 
 Excluding the Fisher scheme – which requires the computation of document bigrams to be compared against the bigrams of a background corpus, a time-consuming algorithm which demands precomputing and caching for efficient results – different scheme selections do not drastically change the summarization time. For each summarization task, term weight extraction time and summary extraction time were collected. This effectively breaks up the time that OCCAMS spends in the NLP realm, gathering information regarding the term weights, from the computation time needed to evaluate the relevance of each sentence and rank them for summarization. While efforts can be taken to ensure the precomputing of NLP tasks as new documents are added to the corpus, summarization efforts must take place after the corpus has been finalized. For this reason, the summary extraction time remains as more valuable metric to evaluate feasibility of summarizing a corpus with n documents. 
 
-## Experimentation 
+## Experimentation & Results
 
-## Results 
+To rerun the experiment, follow the EXPERIMENT.md guide to setup the experiment and run common sequences of summaries. 
+
+To learn more about the experiment process and results, visit the Experiment section in (RESULTS.pdf)[RESULTS.pdf].
+
+## Notes
+
+- The official summaries produced for the SCADS Reccomender System Demo were developed in the (work.ipynb)[work.ipynb]. 
+- Access to the MIND data can be found (here)[https://msnews.github.io]. LAS maintains a copy locally of processed MIND data, which is located within the EFS drive on the Data Science EC2 image.
