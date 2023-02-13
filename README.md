@@ -58,9 +58,9 @@ Excluding the Fisher scheme – which requires the computation of document bigra
 
 To rerun the experiment, follow the EXPERIMENT.md guide to setup the experiment and run common sequences of summaries. 
 
-To learn more about the experiment process and results, visit the Experiment section in (RESULTS.pdf)[RESULTS.pdf].
+To learn more about the experiment process and results, visit the Experiment section in [RESULTS.pdf](RESULTS.pdf).
 
 ## Notes
 
-- The official summaries produced for the SCADS Reccomender System Demo were developed in the (work.ipynb)[work.ipynb]. 
-- Access to the MIND data can be found (here)[https://msnews.github.io]. LAS maintains a copy locally of processed MIND data, which is located within the EFS drive on the Data Science EC2 image.
+- The official summaries produced for the SCADS Reccomender System Demo were developed in the [work.ipynb](work.ipynb). 
+- Access to the MIND data can be found [here](https://msnews.github.io). LAS maintains a copy locally of processed MIND data, which is located within the EFS drive on the Data Science EC2 image.
