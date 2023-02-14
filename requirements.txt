@@ -34,7 +34,7 @@ jsonschema==4.16.0
 jupyter-client==7.3.5
 jupyter-contrib-core==0.4.0
 jupyter-contrib-nbextensions==0.5.1
-jupyter-core==4.11.1
+jupyter-core==4.11.2
 jupyter-highlight-selected-word==0.2.0
 jupyter-latex-envs==1.4.6
 jupyter-nbextensions-configurator==0.5.0
@@ -53,7 +53,7 @@ nbformat==5.6.1
 nest-asyncio==1.5.5
 nltk==3.7
 notebook==6.4.12
-numpy==1.21.6
+numpy==1.22.0
 -e git+git@github.ncsu.edu:SCADS/Occams.git@6427e4dc300814450e86b17d5bcdaf1498f77db2#egg=occams
 openpyxl==3.0.10
 packaging==21.3
