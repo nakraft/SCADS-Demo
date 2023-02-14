@@ -22,7 +22,7 @@ For the SCADS recommender system demo, single document summarizations (aka highl
 
 ![](docs/img/SCADSDemoHomePage.png)
 
-Each of these highlights are ranked by their 'relevance' in summarizing the information within the document. However, they are noticeably non-sequitur when displayed in a paragraph format. This tends to be the case throughout most generated extractive summaries in produced. OCCAMS doesn't reduce this problem any further. **Summarization for SCADS can be found [here](work.ipynb). 
+Each of these highlights are ranked by their 'relevance' in summarizing the information within the document. However, they are noticeably non-sequitur when displayed in a paragraph format. This tends to be the case throughout most generated extractive summaries in produced. OCCAMS doesn't reduce this problem any further. **Summarization for SCADS can be found [here](work.ipynb)**. 
 
 __Multi-Document Summarization__ 
 
@@ -56,7 +56,7 @@ Excluding the Fisher scheme – which requires the computation of document bigra
 
 ## Experimentation & Results
 
-To rerun the experiment, follow the EXPERIMENT.md guide to setup the experiment and run common sequences of summaries. 
+To rerun the experiment, follow the [EXPERIMENT.md](EXPERIMENT.md) guide to setup the experiment and run common sequences of summaries. 
 
 To learn more about the experiment process and results, visit the Experiment section in [RESULTS.pdf](RESULTS.pdf).
 
