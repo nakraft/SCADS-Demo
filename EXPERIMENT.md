@@ -82,9 +82,9 @@ Runnning in experiment mode will produce an excel sheet as an output. The follow
 | doc_number | The number of documents in the corpus | 
 | scheme | Summarization scheme being tested | 
 | target length | Summary target length | 
-| time load | OCCAMS preprocessing time - time it takes to load the corpus into an incidence structure for occams| 
-| time build | Time utilizing the scheme to create term weight. This includes removing elements (sentences) from the Incidence Structure falling outside the set hyperparameters (too short, not enough valuable tokens, etc). | 
-| time summarize | Time processing the term weights to develop a summary score, which is subsequently ranked and chosen from the Greedy Budgeted Maximal Coverage Algorithm (an NP-hard problem, thus a time consuming step in summarization as it is run after each sentence is selected for use until the budget (target length) is exhausted. | 
+| time load (s) | OCCAMS preprocessing time - time it takes to load the corpus into an incidence structure for occams| 
+| time build (s) | Time utilizing the scheme to create term weight. This includes removing elements (sentences) from the Incidence Structure falling outside the set hyperparameters (too short, not enough valuable tokens, etc). | 
+| time summarize (ns, calculated directly by OCCAMS) | Time processing the term weights to develop a summary score, which is subsequently ranked and chosen from the Greedy Budgeted Maximal Coverage Algorithm (an NP-hard problem, thus a time consuming step in summarization as it is run after each sentence is selected for use until the budget (target length) is exhausted. | 
 | Occams Summary | The summary produced by OCCAMS, in the order suggested. Listed in an array representation to be paired with the 'sentence_home'. | 
 | sentance home | The document title for which this extracted sentence was pulled. An array representation of the originating location of the extracted sentence, to be paired with the actual summary column arrays. | 
 | entity count | Number of unique entities within the chosen sentences. | 
