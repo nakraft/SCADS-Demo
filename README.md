@@ -58,7 +58,7 @@ Excluding the Fisher scheme – which requires the computation of document bigra
 
 To rerun the experiment, follow the [EXPERIMENT.md](EXPERIMENT.md) guide to setup the experiment and run common sequences of summaries. 
 
-To learn more about the experiment process and results, visit the Experiment section in [RESULTS.pdf](RESULTS.pdf).
+To learn more about the experiment process and results, visit the Experiment section in [RESULTS.pdf](/docs/RESULTS.pdf).
 
 ## Notes
 
